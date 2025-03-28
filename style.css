@@ -37,7 +37,7 @@ nav,
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 10vh; /* Reduced nav height */
+    height: 10vh; 
 }
 
 .nav-links {
@@ -167,7 +167,7 @@ a:hover {
     justify-content: center;
     gap: 5rem;
     height: 60vh;
-    margin-top: 1rem; /* Reduced top margin */
+    margin-top: 1rem; 
   }
 
   .section__pic-container {
@@ -393,8 +393,8 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 40vh; /* Reduced contact height */
-  margin-bottom: 1rem; /* Reduced bottom margin */
+  height: 40vh;
+  margin-bottom: 1rem; 
 }
 
 .contact-info-upper-container {
@@ -431,8 +431,8 @@ a:hover {
 /* FOOTER */
 
 footer {
-  height: 15vh; /* Reduced footer height */
-  margin-top: 1rem; /* Reduced top margin */
+  height: 15vh;
+  margin-top: 1rem; 
   margin-bottom: 0rem;
   margin-left: 1rem;
   margin-right: 1rem;
