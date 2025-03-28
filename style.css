@@ -37,7 +37,7 @@ nav,
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 10vh; /* Reduced nav height */
 }
 
 .nav-links {
@@ -150,12 +150,11 @@ a:hover {
   /* SECTION */
 
   section {
-    padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
+    /* padding-top: 4vh; */ /* Reduced or removed */
+    min-height: fit-content; /* Allow sections to adjust to content */
+    margin: 2rem 10rem; /* Adjusted margin */
     box-sizing: border-box;
-    min-height: fit-content;
-  }
+}
 
   .section-container {
     display: flex;
@@ -168,6 +167,7 @@ a:hover {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    margin-top: 1rem; /* Reduced top margin */
   }
 
   .section__pic-container {
@@ -313,10 +313,11 @@ a:hover {
   }
   
   
-  .section-container {
+.section-container {
+    display: flex;
     gap: 4rem;
-    height: 80%;
-  }
+    align-items: center; 
+}
   
   .section__pic-container {
     height: 400px;
@@ -392,7 +393,8 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 50vh; /* Reduced contact height */
+  margin-bottom: 1rem; /* Reduced bottom margin */
 }
 
 .contact-info-upper-container {
@@ -429,8 +431,11 @@ a:hover {
 /* FOOTER */
 
 footer {
-  height: 26vh;
-  margin: 0 1rem;
+  height: 15vh; /* Reduced footer height */
+  margin-top: 1rem; /* Reduced top margin */
+  margin-bottom: 0rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 footer p {
