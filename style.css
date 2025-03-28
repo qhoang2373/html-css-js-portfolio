@@ -150,9 +150,9 @@ a:hover {
   /* SECTION */
 
   section {
-    /* padding-top: 4vh; */ /* Reduced or removed */
-    min-height: fit-content; /* Allow sections to adjust to content */
-    margin: 2rem 10rem; /* Adjusted margin */
+
+    min-height: fit-content; 
+    margin: 2rem 10rem; 
     box-sizing: border-box;
 }
 
@@ -166,7 +166,7 @@ a:hover {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 60vh;
     margin-top: 1rem; /* Reduced top margin */
   }
 
@@ -393,7 +393,7 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 50vh; /* Reduced contact height */
+  height: 40vh; /* Reduced contact height */
   margin-bottom: 1rem; /* Reduced bottom margin */
 }
 
