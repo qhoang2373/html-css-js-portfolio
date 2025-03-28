@@ -152,7 +152,7 @@ a:hover {
   section {
 
     min-height: fit-content; 
-    margin: 2rem 10rem; 
+    margin: 1rem 10rem; 
     box-sizing: border-box;
 }
 
@@ -167,7 +167,7 @@ a:hover {
     justify-content: center;
     gap: 5rem;
     height: 60vh;
-    margin-top: 1rem; 
+    margin-top: 0rem; 
   }
 
   .section__pic-container {

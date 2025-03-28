@@ -93,7 +93,8 @@
     gap: 0.5rem;
     text-align: center;
   }
-  .section__pic-container {
+  
+.section__pic-container {
     width: auto;
     height: auto; 
     justify-content: center;
